@@ -13,6 +13,27 @@ body{
     padding-top: 50px;
 }
 
+#animate{
+    position: relative;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes move{
+    0%{
+        top: 0px;
+        opacity: 0.1;
+    }
+    100%{
+        top: 0px;
+        left: 60px;
+
+    }
+}
+
+
+
 
 .first h1{
     display: relative;
