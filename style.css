@@ -25,10 +25,12 @@ body{
         top: 0px;
         opacity: 0.1;
     }
+    50%{
+        left: 60px;
+    }
     100%{
         top: 0px;
         left: 60px;
-
     }
 }
 
